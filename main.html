@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DongYouth</title>
+    <style>
+        @import url("CSS/default.css");
+        @import url("CSS/sidemenu_main.css");
+        @import url("CSS/main.css");  
+    </style>
+    <script src="js/default.js"></script>
+</head>
+<body>
+    <header>
+        <div id="search">
+            <form style = "height:20px" action="">
+                <input style = "display: inline-block;"id="innersearch" type="text" placeholder="Search">
+                <button style = "display: inline-block;"id="searchbutton"><img style="height: 25px"src="img/searchbutton.png" alt=""></button>
+            </form>
+        </div>
+        <div id="profile_div">
+            <img id='bell'src="img/bell.png" alt="">
+            <a id = 'profile' href=""><img style="height: 40px;"src="img/profile.png" alt=""></a>
+        </div>
+    </header>
+    <aside id="sidemenu">
+        <p id ="logo">D<br>Y</p>
+        <a id = "homebutton" href="main.html"><img id="selectedimg" src="img/selectedhomebutton.png" alt="home"></a>
+        <a id = "myclubbutton" href="my_club.html"><img class= "button" src="img/myclubbutton.png"></a>
+        <a id = "clublistbutton" href="club_list.html"><img class= "button" src="img/clublistbutton.png"></a>
+        <a id = "communitybutton" href="community.html"><img class= "button" src="img/communitybutton.png"></a>
+        <a id= "settingbutton" href=""><img class ="button" src="img/settingbutton.png"></a>
+        <a id="outbutton" href="login.html"><img class="button" src="img/outbutton.png"></a>
+    </aside>
+    
+    <main>
+      <p id="homelogo">Home</p>
+        <div class="slideshow-container">
+            <div class="slide-wrapper">
+              <div class="slide">
+                <img class='mainimg' src="img/뭉게구름.png" alt="Image 1" onclick="showalert(1)">
+              </div>
+              <div class="slide">
+                <img class='mainimg' src="img/바람소리.jpeg" alt="Image 2"onclick="showalert(2)">
+              </div>
+              <div class="slide">
+                <img class='mainimg' src="img/책먹는고양이.jpeg" alt="Image 3"onclick="showalert(3)">
+              </div>
+              <div class="slide">
+                <img class='mainimg' src="img/현여울.jpeg" alt="Image 4"onclick="showalert(4)">
+              </div>
+              <div class="slide">
+                  <img class='mainimg' src="img/모노로그.jpeg" alt="Image 5"onclick="showalert(5)">
+                </div>
+              <div class="slide">
+                  <img class='mainimg' src="img/팜.jpeg" alt="Image 6"onclick="showalert(6)">
+              </div>
+              <div class="slide">
+                  <img class='mainimg' src="img/터스커스.jpeg" alt="Image 7"onclick="showalert(7)">
+              </div>
+              <div class="slide">
+                  <img class='mainimg' src="img/무법.jpeg" alt="Image 8"onclick="showalert(8)">
+              </div>
+            </div>
+          </div>
+          <script src="js/main.js"></script>
+    </main>
+    <article>
+      <div id="communityart">
+        <a id="communitytext"href="community.html">Communuty</a>
+        <a id="ctext1"href="posting.html">뭉게구름 공연에 초대합니다!</a><hr class="chr"style="top:83px;">
+        <a id="ctext2"href="">Farm System OT 일정 안내</a><hr class="chr"style="top:112px;">
+        <hr class="chr"style="top:141px;">
+        <hr class="chr"style="top:170px;">
+        <hr class="chr"style="top:199px;">
+        <hr class="chr"style="top:228px;">
+        <hr class="chr"style="top:257px;">
+      </div>
+      <div id="noticeart">
+        <a id="ntext"href="community.html">Notice</a>
+        <a id="ntext1"href="">버전 업데이트 v.0.1.7   </a><hr class="nhr"style="top:83px;">
+        <hr class="nhr"style="top:112px;">
+        <hr class="nhr"style="top:141px;">
+        <hr class="nhr"style="top:170px;">
+        <hr class="nhr"style="top:199px;">
+        <hr class="nhr"style="top:228px;">
+        <hr class="nhr"style="top:257px;">
+      </div>
+      <div id="hotart">
+        <a id="htext"href="club_list.html">Hot</a>
+        <p id="htext1">1. 뭉게구름</p>
+        <p id="htext2">2. Farm System</p>
+        <p id="htext3">3. 피어리스던</p>
+        <p id="htext4">4. ODC</p>
+        <p id="htext5">5. 상록수커피클럽</p>
+        <p id="htext6">6. 무법</p>
+        <p id="htext7">7. Dcock</p>
+
+
+        
+      </div>
+    </article>
+   <footer>
+    <p>Tel) 02-123-4567<br>
+        COPYRIGHT (C) 2022 DONGYOUTH. ALL RIGHTS RESERVED</p>
+   </footer>
+</body>
+</html>

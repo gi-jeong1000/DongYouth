@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DongYouth/clublist</title>
+    <style>
+        @import url("CSS/default.css");
+        @import url("CSS/sidemenu_clublist.css");
+        @import url("CSS/clublist.css");
+    </style>
+    <script src="js/clublist.js"></script>
+</head>
+<body>
+    <header>
+        <div id="search">
+            <form style = "height:20px" action="">
+                <input style = "display: inline-block;"id="innersearch" type="text" placeholder="Search">
+                <button style = "display: inline-block;"id="searchbutton"><img style="height: 25px"src="img/searchbutton.png" alt=""></button>
+            </form>
+        </div>
+        <div id="profile_div">
+            <img id='bell'src="img/bell.png" alt="">
+            <a id = 'profile' href=""><img style="height: 40px;"src="img/profile.png" alt=""></a>
+        </div>
+    </header>
+    <nav>
+        <p id="clublistlogo">Clublist</p>
+        <a class="navlist" id="nav1"href=""><img class="navimg"src="img/전체.png" alt=""></a>
+        <a class="navlist" id="nav2"href=""><img class="navimg"src="img/공연.png" alt=""></a>
+        <a class="navlist" id="nav3"href=""><img class="navimg"src="img/사회활동.png" alt=""></a>
+        <a class="navlist" id="nav4"href=""><img class="navimg"src="img/교양.png" alt=""></a>
+        <a class="navlist" id="nav5"href=""><img class="navimg"src="img/취업.png" alt=""></a>
+        <a class="navlist" id="nav6"href=""><img class="navimg"src="img/어학.png" alt=""></a>
+        <a class="navlist" id="nav7"href=""><img class="navimg"src="img/체육.png" alt=""></a>
+    </nav>
+    <aside id="sidemenu">
+        <p id ="logo">D<br>Y</p>
+        <a id = "homebutton" href="main.html"><img class = "button" src="img/homebutton.png" alt="home"></a>
+        <a id = "myclubbutton" href="my_club.html"><img class= "button" src="img/myclubbutton.png"></a>
+        <a id = "clublistbutton" href="club_list.html"><img id="selectedimg" src="img/selectedclublistbutton.png"></a>
+        <a id = "communitybutton" href="community.html"><img class= "button" src="img/communitybutton.png"></a>
+        <a id= "settingbutton" href=""><img class ="button" src="img/settingbutton.png"></a>
+        <a id="outbutton" href="login.html"><img class="button" src="img/outbutton.png"></a>
+    </aside>
+    <main>
+        <div class="slide-wrapper1">
+            <div class="slide">
+              <img class='mainimg' src="img/뭉게구름.png" alt="Image 1" onclick="showalert(1)">
+            </div>
+            <div class="slide">
+              <img class='mainimg' src="img/바람소리.jpeg" alt="Image 2"onclick="showalert(2)">
+            </div>
+            <div class="slide">
+              <img class='mainimg' src="img/책먹는고양이.jpeg" alt="Image 3"onclick="showalert(3)">
+            </div>
+            <div class="slide">
+              <img class='mainimg' src="img/현여울.jpeg" alt="Image 4"onclick="showalert(4)">
+            </div>
+            <div class="slide">
+                <img class='mainimg' src="img/모노로그.jpeg" alt="Image 5"onclick="showalert(5)">
+              </div>
+            <div class="slide">
+                <img class='mainimg' src="img/팜.jpeg" alt="Image 6"onclick="showalert(6)">
+            </div>
+            <div class="slide">
+                <img class='mainimg' src="img/터스커스.jpeg" alt="Image 7"onclick="showalert(7)">
+            </div>
+            <div class="slide">
+                <img class='mainimg' src="img/무법.jpeg" alt="Image 8"onclick="showalert(8)">
+            </div>
+          </div>
+        <div id="listnum">
+            <p style="display: inline-block; font-size: 15px;"><</p>
+            <a class="num"href="">1</a> <a class="num"href="">2</a> <a class="num"href="">3</a>
+            <a class="num"href="">4</a> <a class="num"href="">5</a> <a class="num"href="">6</a>
+            <p style="display: inline-block; font-size: 15px;">></p>
+        </div>
+    </main>
+    <footer>
+        <p>Tel) 02-123-4567<br>
+            COPYRIGHT (C) 2022 DONGYOUTH. ALL RIGHTS RESERVED</p>
+       </footer>
+    
+
+</body>
+</html>

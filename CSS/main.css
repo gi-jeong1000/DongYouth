@@ -1,0 +1,321 @@
+main {
+    position: absolute;
+    width: 1197px;
+    height: 272px;
+    left: 84px;
+    top: 70px;
+}
+
+.slideshow-container {
+    left: 16px;
+    width: 1400px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    flex: 0 0 550x;
+    /* 그림 사이에 50px의 공백을 포함한 너비 계산 */
+    height: 100%;
+    margin-right: 100px;
+    /* 그림 사이의 공백 설정 */
+}
+
+.mainimg {
+    height: 300px;
+    width: 300px;
+}
+
+img.mainimg {
+    border-radius: 20px;
+    height: 250px;
+    width: 250px;
+}
+
+#homelogo {
+    margin: 10px;
+    font-family: 'Arial Rounded MT Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    color: #3F57FF;
+}
+
+article {
+    position: absolute;
+    width: 1195px;
+    height: 350px;
+    left: 82px;
+    top: 390px;
+}
+
+#communityart {
+    display: inline-block;
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    left: 16px;
+    top: 18px;
+    background: #F3F4FF;
+    border-radius: 20px;
+}
+
+#noticeart {
+    display: inline-block;
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    left: 550px;
+    top: 18px;
+    background: #F3F4FF;
+    border-radius: 20px;
+}
+
+#hotart {
+    position: absolute;
+    width: 240px;
+    height: 300px;
+    left: 1084px;
+    top: 18px;
+    background: #F3F4FF;
+    border-radius: 20px;
+}
+
+#communitytext {
+    text-decoration: none;
+    position: absolute;
+    width: 367px;
+    height: 30px;
+    left: 20px;
+    top: 15px;
+    font-family: 'Arial Rounded MT Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #3F57FF;
+}
+
+#ctext1 {
+    text-decoration: none;
+    position: absolute;
+    width: 369px;
+    height: 26px;
+    left: 20px;
+    top: 70px;
+    font-family: 'Arial Rounded MT Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    color: #000000;
+}
+
+#ctext2 {
+    text-decoration: none;
+    position: absolute;
+    width: 371px;
+    height: 36px;
+    left: 20px;
+    top: 101px;
+    font-family: 'Arial Rounded MT Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    color: #000000;
+}
+
+hr.chr {
+    position: absolute;
+    width: 450px;
+    left: 18px;
+    border: none;
+    border-top: 1px solid #000;
+    height: 1px;
+    border-color: #BAC1FF;
+    transform: rotate(0.15deg);
+}
+
+#ntext {
+    text-decoration: none;
+    position: absolute;
+    width: 367px;
+    height: 30px;
+    left: 20px;
+    top: 15px;
+    font-family: 'Arial Rounded MT Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #3F57FF;
+}
+
+#ntext1 {
+    text-decoration: none;
+    position: absolute;
+    width: 369px;
+    height: 26px;
+    left: 20px;
+    top: 70px;
+    font-family: 'Arial Rounded MT Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    color: #000000;
+}
+
+#ntext2 {
+    text-decoration: none;
+    position: absolute;
+    width: 371px;
+    height: 36px;
+    left: 20px;
+    top: 101px;
+    font-family: 'Arial Rounded MT Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    color: #000000;
+}
+
+hr.nhr {
+    position: absolute;
+    width: 450px;
+    left: 18px;
+    border: none;
+    border-top: 1px solid #000;
+    height: 1px;
+    border-color: #BAC1FF;
+    transform: rotate(0.15deg);
+}
+
+#htext {
+    text-decoration: none;
+    position: absolute;
+    width: 367px;
+    height: 30px;
+    left: 20px;
+    top: 15px;
+    font-family: 'Arial Rounded MT Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #3F57FF;
+}
+
+#htext1 {
+    text-decoration: none;
+    position: absolute;
+    width: 369px;
+    height: 26px;
+    left: 20px;
+    top: 40px;
+    font-family: 'Arial Rounded MT Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    color: #000000;
+}
+
+#htext2 {
+    text-decoration: none;
+    position: absolute;
+    width: 369px;
+    height: 26px;
+    left: 20px;
+    top: 65px;
+    font-family: 'Arial Rounded MT Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    color: #000000;
+}
+
+#htext3 {
+    text-decoration: none;
+    position: absolute;
+    width: 369px;
+    height: 26px;
+    left: 20px;
+    top: 90px;
+    font-family: 'Arial Rounded MT Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    color: #000000;
+}
+
+#htext4 {
+    text-decoration: none;
+    position: absolute;
+    width: 369px;
+    height: 26px;
+    left: 20px;
+    top: 115px;
+    font-family: 'Arial Rounded MT Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    color: #000000;
+}
+
+#htext5 {
+    text-decoration: none;
+    position: absolute;
+    width: 369px;
+    height: 26px;
+    left: 20px;
+    top: 140px;
+    font-family: 'Arial Rounded MT Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    color: #000000;
+}
+
+#htext6 {
+    text-decoration: none;
+    position: absolute;
+    width: 369px;
+    height: 26px;
+    left: 20px;
+    top: 165px;
+    font-family: 'Arial Rounded MT Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    color: #000000;
+}
+
+#htext7 {
+    text-decoration: none;
+    position: absolute;
+    width: 369px;
+    height: 26px;
+    left: 20px;
+    top: 190px;
+    font-family: 'Arial Rounded MT Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    color: #000000;
+}

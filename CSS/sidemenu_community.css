@@ -1,0 +1,85 @@
+#sidemenu {
+    position: absolute;
+    width: 60px;
+    height: 780px;
+    left: 0px;
+    top: 0px;
+    background: #DFE2FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+#logo {
+    position: absolute;
+    width: 47px;
+    height: 48px;
+    left: calc(50% - 47px/2 - 0.5px);
+    top: -10px;
+
+    font-family: 'Arial Rounded MT Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 46px;
+    text-align: center;
+
+    color: #3F57FF;
+}
+
+#homebutton {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 7px;
+    top: 156px;
+}
+
+#myclubbutton {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 7px;
+    top: 228px;
+}
+
+#clublistbutton {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 7px;
+    top: 299px;
+}
+
+#communitybutton {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: -2px;
+    top: 369px;
+    filter: drop-shadow(0px 6px 12px #BFC6F9);
+}
+
+#settingbutton {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 7px;
+    top: 660px;
+}
+
+#outbutton {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 7px;
+    top: 720px;
+
+}
+
+.button {
+    height: 46px
+}
+
+#selectedimg {
+    height: 68px
+}

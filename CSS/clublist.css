@@ -1,0 +1,121 @@
+nav {
+    position: absolute;
+    width: 1178px;
+    height: 86px;
+    left: 66px;
+    top: 70px;
+}
+
+#clublistlogo {
+    position: relative;
+    margin: 10px;
+    left: 20px;
+    font-family: 'Arial Rounded MT Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    color: #3F57FF;
+}
+
+img.navimg {
+    width: 110px;
+}
+
+a.navlist {
+    top: 70px;
+}
+
+#nav1 {
+    position: absolute;
+    left: 30px;
+}
+
+#nav2 {
+    position: absolute;
+    left: 180px;
+}
+
+#nav3 {
+    position: absolute;
+    left: 330px;
+}
+
+#nav4 {
+    position: absolute;
+    left: 480px;
+}
+
+#nav5 {
+    position: absolute;
+    left: 630px;
+}
+
+#nav6 {
+    position: absolute;
+    left: 780px;
+}
+
+#nav7 {
+    position: absolute;
+    left: 930px;
+}
+
+main {
+    position: absolute;
+    width: 1300px;
+    height: 540px;
+    left: 130px;
+    top: 200px;
+}
+
+.slide-wrapper {
+    display: flex;
+}
+
+.slide {
+    display: inline-block;
+    flex: 0 0 550x;
+    height: 100%;
+    margin-right: 60px;
+}
+
+.mainimg {
+    height: 300px;
+    width: 300px;
+    border: 2px black solid;
+}
+
+img.mainimg {
+    border-radius: 20px;
+    height: 250px;
+    width: 250px;
+}
+
+#listnum {
+    position: absolute;
+    width: 251px;
+    height: 32px;
+    left: 540px;
+    top: 479px;
+}
+
+#listnum * {
+    font-family: 'Arial Rounded MT Bold';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 90px;
+    text-align: center;
+    color: #3F57FF;
+}
+
+.num {
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Arial Rounded MT Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}

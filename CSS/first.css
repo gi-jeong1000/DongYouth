@@ -1,0 +1,82 @@
+main {
+    position: absolute;
+    width: 1300px;
+    height: 650px;
+    left: 80px;
+    top: 80px;
+}
+
+#communitylogo {
+    margin: 10px;
+    font-family: 'Arial Rounded MT Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    color: #3F57FF;
+}
+
+#title {
+    display: inline-block;
+    position: absolute;
+    width: 400px;
+    height: 38px;
+    left: 30px;
+    top: 45px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 38px;
+    color: #707070;
+}
+
+#user {
+    display: inline-block;
+    position: absolute;
+    width: 400px;
+    height: 38px;
+    left: 30px;
+    top: 90px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 38px;
+    color: #707070;
+}
+
+#content {
+    display: inline-block;
+    position: absolute;
+    width: 800px;
+    height: 450px;
+    left: 450px;
+    top: 160px;
+    background: #F3F4FF;
+    border-radius: 20px;
+}
+
+#incontent {
+    text-decoration: none;
+    position: absolute;
+    width: 700px;
+    height: 400px;
+    left: 30px;
+    top: 30px;
+    line-height: 4;
+    font-family: 'Arial Rounded MT Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 17px;
+    color: #000000;
+}
+
+#poster {
+    height: 450px;
+    position: absolute;
+    left: 50px;
+    top: 160px;
+    border-radius: 20px;
+}

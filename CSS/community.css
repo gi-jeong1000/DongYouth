@@ -1,0 +1,242 @@
+nav {
+    position: absolute;
+    width: 1178px;
+    height: 86px;
+    left: 66px;
+    top: 70px;
+
+}
+
+#communitylogo {
+    position: relative;
+    margin: 10px;
+    left: 20px;
+    font-family: 'Arial Rounded MT Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    /* identical to box height */
+
+
+    color: #3F57FF;
+}
+
+img.navimg {
+    width: 110px;
+}
+
+a.navlist {
+    top: 70px;
+}
+
+#nav1 {
+    position: absolute;
+    left: 30px;
+
+}
+
+#nav2 {
+    position: absolute;
+    left: 180px;
+
+}
+
+#nav3 {
+    position: absolute;
+    left: 330px;
+
+}
+
+main {
+
+    position: absolute;
+    width: 1195px;
+    height: 300px;
+    left: 82px;
+    top: 180px;
+}
+
+#community {
+    display: inline-block;
+    position: absolute;
+    width: 1300px;
+    height: 500px;
+    left: 16px;
+    top: 18px;
+
+    background: #F3F4FF;
+    border-radius: 20px;
+}
+
+#communitytext {
+    text-decoration: none;
+    position: absolute;
+    width: 367px;
+    height: 30px;
+    left: 20px;
+    top: 15px;
+
+    font-family: 'Arial Rounded MT Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #3F57FF;
+
+}
+
+hr.chr {
+    position: absolute;
+    width: 1250px;
+    left: 18px;
+    border: none;
+    border-top: 1px solid #000;
+    height: 1px;
+    border-color: #BAC1FF;
+    transform: rotate(0.15deg);
+}
+
+#ctext1 {
+    text-decoration: none;
+    position: absolute;
+    width: 369px;
+    height: 26px;
+    left: 45px;
+    top: 40px;
+
+    font-family: 'Arial Rounded MT Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 17px;
+
+    color: #000000;
+}
+
+#ctext2 {
+    text-decoration: none;
+    position: absolute;
+    width: 371px;
+    height: 36px;
+    left: 45px;
+    top: 73px;
+
+    font-family: 'Arial Rounded MT Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 17px;
+
+    color: #000000;
+}
+
+.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.tg td {
+    border-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    font-family: 'Arial Rounded MT Bold';
+    font-size: 10px;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+}
+
+.tg th {
+    border-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    font-family: 'Arial Rounded MT Bold';
+    font-size: 10px;
+    font-weight: normal;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+}
+
+.tg .tg-gsih {
+    border-bottom-color: #bac1ff;
+    font-family: 'Arial Rounded MT Bold' !important;
+    font-size: 16px;
+    text-align: left;
+    vertical-align: middle
+}
+
+.tg .tg-rlrb {
+    border-bottom-color: #bac1ff;
+    font-family: 'Arial Rounded MT Bold' !important;
+    font-size: 16px;
+    text-align: left;
+    vertical-align: top
+}
+
+.tg .tg-cbon {
+    border-bottom-color: #bac1ff;
+    font-family: 'Arial Rounded MT Bold' !important;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle
+}
+
+.tg .tg-vfon {
+    border-bottom-color: #bac1ff;
+    font-family: 'Arial Rounded MT Bold' !important;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: top
+}
+
+.tg .tg-3t75 {
+    border-bottom-color: #bac1ff;
+    font-family: 'Arial Rounded MT Bold' !important;
+    font-size: 16px;
+    text-align: left;
+    vertical-align: bottom
+}
+
+.tg {
+    position: absolute;
+    top: 0px;
+    left: 31px;
+}
+
+#listnum {
+    position: absolute;
+    width: 251px;
+    height: 32px;
+    left: 575px;
+    top: 483px;
+}
+
+#listnum * {
+    font-family: 'Arial Rounded MT Bold';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 90px;
+    text-align: center;
+
+    color: #3F57FF;
+}
+
+.num {
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Arial Rounded MT Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+#write {
+    position: absolute;
+    left: 1210px;
+    top: 26px;
+}

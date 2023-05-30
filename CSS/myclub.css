@@ -1,0 +1,276 @@
+nav {
+    position: absolute;
+    width: 1178px;
+    height: 86px;
+    left: 66px;
+    top: 70px;
+}
+
+#myclublogo {
+    position: relative;
+    margin: 10px;
+    left: 20px;
+    font-family: 'Arial Rounded MT Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    color: #3F57FF;
+}
+
+img.navimg {
+    width: 110px;
+}
+
+a.navlist {
+    top: 70px;
+}
+
+#nav1 {
+    position: absolute;
+    left: 30px;
+}
+
+#nav2 {
+    position: absolute;
+    left: 180px;
+}
+
+#nav3 {
+    position: absolute;
+    left: 330px;
+}
+
+main {
+    position: absolute;
+    width: 1178px;
+    height: 582px;
+    left: 150px;
+    top: 185px;
+}
+
+#community {
+    position: absolute;
+    width: 600px;
+    height: 518px;
+    left: 20px;
+    top: 12px;
+    background: #F3F4FF;
+    border-radius: 20px;
+}
+
+#communitytext {
+    text-decoration: none;
+    position: absolute;
+    width: 367px;
+    height: 30px;
+    left: 20px;
+    top: 15px;
+    font-family: 'Arial Rounded MT Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #3F57FF;
+}
+
+.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.tg td {
+    border-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+}
+
+.tg th {
+    border-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+}
+
+.tg .tg-p92f {
+    border-bottom-color: #bac1ff;
+    font-size: 14px;
+    text-align: center;
+    vertical-align: top
+}
+
+.tg .tg-raut {
+    border-bottom-color: #bac1ff;
+    font-size: 14px;
+    text-align: left;
+    vertical-align: top
+}
+
+.tg .tg-7nc5 {
+    border-bottom-color: #bac1ff;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 14px;
+    text-align: left;
+    vertical-align: top
+}
+
+.tg .tg-hlyd {
+    border-bottom-color: #bac1ff;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 14px;
+    text-align: left;
+    vertical-align: middle
+}
+
+.tg .tg-27nz {
+    border-bottom-color: #bac1ff;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 14px;
+    text-align: left;
+    vertical-align: bottom
+}
+
+.tg {
+    position: absolute;
+    left: 23px;
+    top: 55px;
+}
+
+#listnum {
+    position: absolute;
+    width: 251px;
+    height: 32px;
+    left: 240px;
+    top: 440px;
+}
+
+#listnum * {
+    font-family: 'Arial Rounded MT Bold';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 90px;
+    text-align: center;
+    color: #3F57FF;
+}
+
+.num {
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Arial Rounded MT Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 23px;
+}
+
+article {
+    position: absolute;
+    width: 600px;
+    height: 210px;
+    left: 850px;
+    top: 195px;
+}
+
+.slideshow-container {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.slide.active {
+    opacity: 1;
+}
+
+img.mainimg {
+    border-radius: 20px;
+    height: 250px;
+    width: 450px;
+}
+
+#cal {
+    position: absolute;
+    width: 450px;
+    height: 250px;
+    left: 850px;
+    top: 465px;
+    background: #F3F4FF;
+    border-radius: 20px;
+}
+
+.tgc {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.tgc td {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+}
+
+.tgc th {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+}
+
+.tgc .tg-0lq4 {
+    border-color: #bac1ff;
+    text-align: center;
+    vertical-align: top
+}
+
+.tgc {
+    position: absolute;
+    left: 32px;
+    top: 14px;
+}
+
+#write {
+    position: absolute;
+    left: 524px;
+    top: 453px;
+    text-decoration: none;
+}
+
+#write * {
+    font-family: 'Arial Rounded MT Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 41px;
+    color: #3F57FF;
+}
